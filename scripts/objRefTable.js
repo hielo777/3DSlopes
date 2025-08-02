@@ -1,0 +1,70 @@
+const C3 = self.C3;
+self.C3_GetObjectRefTable = function () {
+	return [
+		C3.Plugins.Shape3D,
+		C3.Plugins.Sprite,
+		C3.Behaviors.EightDir,
+		C3.Behaviors.DragnDrop,
+		C3.Plugins.Camera3D,
+		C3.Plugins.Keyboard,
+		C3.Plugins.Text,
+		C3.Behaviors.solid,
+		C3.Plugins.System.Cnds.OnLayoutStart,
+		C3.Plugins.Camera3D.Acts.LookAtPosition,
+		C3.Plugins.Camera3D.Exps.CameraX,
+		C3.Plugins.Sprite.Exps.X,
+		C3.Plugins.System.Exps.dt,
+		C3.Plugins.Camera3D.Exps.CameraY,
+		C3.Plugins.Sprite.Exps.Y,
+		C3.Plugins.System.Exps.max,
+		C3.Plugins.Sprite.Exps.ZElevation,
+		C3.Plugins.System.Cnds.EveryTick,
+		C3.Plugins.Shape3D.Acts.SetPos,
+		C3.Plugins.Keyboard.Cnds.IsKeyDown,
+		C3.Behaviors.EightDir.Acts.SimulateControl,
+		C3.Plugins.Sprite.Cnds.IsOverlapping,
+		C3.Plugins.System.Acts.SetVar,
+		C3.Plugins.Shape3D.Exps.FaceImagePointX,
+		C3.Plugins.Shape3D.Exps.FaceImagePointY,
+		C3.Plugins.Text.Acts.SetText,
+		C3.Plugins.System.Cnds.CompareVar,
+		C3.Plugins.Shape3D.Acts.SetZElevation,
+		C3.Plugins.Shape3D.Exps.Width,
+		C3.Plugins.Shape3D.Exps.ZHeight,
+		C3.Plugins.Shape3D.Exps.ZElevation
+	];
+};
+self.C3_JsPropNameTable = [
+	{slope: 0},
+	{"8Direction": 0},
+	{DragDrop: 0},
+	{player: 0},
+	{"3DCamera": 0},
+	{Keyboard: 0},
+	{pshape: 0},
+	{TextDebug: 0},
+	{Solid: 0},
+	{wall: 0},
+	{Text2: 0},
+	{camLerp: 0},
+	{CAMERADISTANCE: 0},
+	{CameraAngle: 0},
+	{cameraZHeight: 0},
+	{dist: 0},
+	{cangle: 0},
+	{lookAtZBase: 0},
+	{distBottom: 0},
+	{distTop: 0},
+	{slopeWidth: 0}
+];
+
+self.InstanceType = {
+	slope: class extends self.I3DShapeInstance {},
+	player: class extends self.ISpriteInstance {},
+	_3DCamera: class extends self.IInstance {},
+	Keyboard: class extends self.IInstance {},
+	pshape: class extends self.I3DShapeInstance {},
+	TextDebug: class extends self.ITextInstance {},
+	wall: class extends self.ISpriteInstance {},
+	Text2: class extends self.ITextInstance {}
+}

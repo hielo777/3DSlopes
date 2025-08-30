@@ -27,6 +27,7 @@ No more right-angle-only slopes — tilt them however you like!
 
 ## 🔀 Changes:
 - [x] Moved all the html files to the `html export files` folder for easier project navigation
+- [x] Added a *basic version* folder to keep the original functionality clean after upcoming additions
 
 ## 📋 To Do
 - [ ] Create a "Basic version" folder to keep the current version

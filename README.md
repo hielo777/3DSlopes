@@ -9,6 +9,16 @@ In that project, a 3D wedge shape was used to create sloped surfaces that other 
 
 You can see a more interesting implementation of this project in the basic versions of this related project: https://github.com/hielo777/3dThumbstickControls
 
+<p align="center">
+  <a href="https://hielo777.github.io/3DSlopes/">
+    <img src="3DSlopesDemo.png" alt="3D Slopes in Construct 3" />
+  </a>
+  <br />
+  <a href="https://hielo777.github.io/3DSlopes/">
+    <sub>Click here to try the demo >></sub>
+  </a>
+</p>
+
 ***
 
 ### 🆕 What This Project Improves
